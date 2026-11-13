@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div>
+                <h1>Website Monitor</h1>
+                <p>Automated website uptime monitoring dashboard</p>
+            </div>
+            <button id="checkButton">Check Now</button>
+        </header>
+
+        <section class="stats">
+            <div class="stat-card">
+                <h3>Total Websites</h3>
+                <p id="total">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Online</h3>
+                <p id="online">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Offline</h3>
+                <p id="offline">0</p>
+            </div>
+        </section>
+
+        <section class="add-section">
+            <h2>Add Website</h2>
+
+            <form id="websiteForm">
+                <input
+                    type="url"
+                    id="websiteUrl"
+                    placeholder="https://example.com"
+                    required
+                >
+                <button type="submit">Add Website</button>
+            </form>
+        </section>
+
+        <section class="website-section">
+            <h2>Monitored Websites</h2>
+
+            <div id="websiteList"></div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

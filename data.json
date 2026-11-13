@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1794553570299,
+    "url": "https://google.com/",
+    "status": "UP",
+    "httpStatus": 200,
+    "responseTime": 2517,
+    "lastChecked": "2026-11-13T07:19:02.531Z"
+  },
+  {
+    "id": 1794553627689,
+    "url": "https://this-domain-definitely-does-not-exist-987654321.com/",
+    "status": "DOWN",
+    "httpStatus": null,
+    "responseTime": 18,
+    "lastChecked": "2026-11-13T07:19:02.549Z"
+  },
+  {
+    "id": 1794554019066,
+    "url": "http://localhost:3000/",
+    "status": "DOWN",
+    "httpStatus": null,
+    "responseTime": 2,
+    "lastChecked": "2026-11-13T07:19:02.551Z"
+  }
+]
